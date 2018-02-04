@@ -1,0 +1,35 @@
+*{
+	font-family: verdana;
+	margin: 0;
+}
+h1{
+	text-align: center;
+	margin-bottom: 50px;
+	margin-top: 40px;
+}
+
+.wrapper{
+	width:100%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+.team{
+	display: inline-flex;
+	justify-content: space-between;
+}
+.a{
+	height: 450px;
+	min-width: 200px;
+	
+	margin: 10px;
+}
+.member{
+	margin:60px;
+}
+.about{
+	text-align: center;
+	font-size: 20px;
+}
+.follow{
+	margin:40px 40px;
+}

@@ -1,0 +1,42 @@
+
+	div.a{
+margin-top:250px;
+	}
+	div.b{
+border: 2px solid red;
+	}
+	div.c{
+		/*border: 2px solid red;*/
+		height: 200px;
+		font-family: college;
+		font-size:200px;
+		color:silver;
+		text-align: center;
+	}
+	div.d{
+border: 2px solid red;
+	}
+	div.e{
+		border: 2px solid red;
+	}
+	body{
+		background-image: url('back.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-attachment:fixed;
+	}
+	@font-face{
+		font-family: college;
+		src:url('octomorf.ttf');
+	}
+	div.z{
+		border:2px none;
+		background-color: white;
+		height:40px;
+		border-bottom-right-radius:10px;
+		border-bottom-left-radius:10px; 
+	}
+	div.x{
+		position: fixed;
+		top: 0px;
+	}

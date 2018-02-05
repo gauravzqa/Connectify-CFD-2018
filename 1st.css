@@ -9,7 +9,7 @@ border: 2px solid red;
 		/*border: 2px solid red;*/
 		height: 200px;
 		font-family: college;
-		font-size:200px;
+		font-size:100px;
 		color:silver;
 		text-align: center;
 	}
@@ -20,14 +20,14 @@ border: 2px solid red;
 		border: 2px solid red;
 	}
 	body{
-		background-image: url('back.png');
+		background-image: url('images/back.png');
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-attachment:fixed;
 	}
 	@font-face{
 		font-family: college;
-		src:url('octomorf.ttf');
+		src:url('college.ttf');
 	}
 	div.z{
 		border:2px none;

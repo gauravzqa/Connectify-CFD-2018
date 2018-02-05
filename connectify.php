@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-<<<<<<< HEAD
 	<title>Connectify</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<meta charset="utf-8">
@@ -27,7 +26,7 @@
 					<div class="fb" style="margin: 15px;" ><a href=""><img src="images/linkedin.png" width=30px" height=30px"></a></div>
 				</div>
 			</div>
-			<div class ="a" >
+			<div class ="a" style="border: 2px solid red; " >
 				<div class="member" >
 					<img src="images/gaurav.jpeg" width="200px" height="200px" style="border-radius:50%;">
 				</div>
@@ -56,6 +55,11 @@
 				</div>
 			</div>
 		</div>
+	</div>
+	<br>
+	<br>
+	<div class="map" >
+	<iframe width="100%" style="margin-top: 50px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2376.8060482155465!2d77.89568739734611!3d29.869889394203994!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390eb363568356e9%3A0x9f8dd3feb79563c0!2sRajendra+Bhawan!5e0!3m2!1sen!2sin!4v1517871414717" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
 	</div>
 </body>
 </html>

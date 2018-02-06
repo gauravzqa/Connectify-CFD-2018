@@ -18,6 +18,9 @@ border: 2px solid red;
 	}
 	div.e{
 		border: 2px solid red;
+		font-size: 20px;
+		color:white;
+		height:100px;
 	}
 	body{
 		background-image: url('images/back.png');
@@ -40,3 +43,43 @@ border: 2px solid red;
 		position: fixed;
 		top: 0px;
 	}
+	div.ab{
+text-align: justify;
+background-color: white;
+font-size: 20px;
+margin-top: 60px;
+	}
+	div.aa{
+		margin-top: 100px;
+		font-size: 40px;
+		text-align: center;
+		background-color: white;
+	}
+	div.ac1{
+		background-image: url('images/a2.jpg');
+		background-size: contain;
+		height: 350px;
+		background-repeat: no-repeat;
+	}
+	div.ac2{
+		background-image: url('images/a3.jpg');
+		background-size: contain;
+		height: 350px;
+		background-repeat: no-repeat;
+	}
+	div.ac3{
+		background-image: url('images/a4.jpg');
+		background-size: contain;
+		height: 350px;
+		background-repeat: no-repeat;
+	}
+	div.ad1{
+		background-image: url('images/a1.jpg');
+		background-size: cover;
+		height: 500px;
+		border-top:2px solid #efefef;
+	}
+	div.ac{
+		background-color: white;
+	}
+

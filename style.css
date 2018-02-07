@@ -1,0 +1,157 @@
+*{
+	margin: 0;
+}
+div.Con-Webbies{
+	text-align: center;
+	position: relative;
+	font-size: 40px;
+	top:40px;
+}
+
+}
+
+.wrapper{
+	width:100%;
+	max-width: 960px;
+	margin: 0 auto;
+	font-family: Avene;
+}
+.team{
+	display: inline-flex;
+	justify-content: space-between;
+}
+.alu{
+	height: 450px;
+	min-width: 200px;
+	font-size: 70px;
+	margin: 10px;
+}
+.member{
+	margin:60px;
+}
+.about{
+	text-align: center;
+	font-size: 20px;
+}
+.follow{
+	margin:40px 40px;
+}
+.map{
+	position:relative;
+	top:20px;
+}
+@font-face{
+	font-family:Avene;
+	src :  url('Avene.otf');
+}
+div#main{
+	background-color: white;
+	margin-top: -20px;
+	border-top:2px solid #efefef;
+}
+div.alu{
+	margin:0px 50px ;
+	border:2px solid #efefef;
+	height:470px;
+}
+div.alu,div.follow{
+	position: relative;
+	top:-30px;
+}
+div#zz{
+	font-size: 40px;
+	text-align: center;
+	border-top: 2px solid #efefef;	
+
+}
+form{
+	width:360px;
+	height:400px;
+background-color: white;
+border:2px solid #efefef;
+}
+div.rcform{
+	position: absolute;
+	top:220px;
+	left:8px;
+	width:340px;
+}
+div.footer{
+	background-color: #F0FFFF;
+	position:fixed;
+	bottom: 0px;
+	font-size: 25px;
+	display: none;
+}
+a#footer{
+	color: black;
+}
+a#footer:hover{
+border:2px solid silver;
+
+}
+#headermainb,#headermainc,#headermaind{
+	float:left;
+	text-decoration: none;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 10px;
+color:black;
+border:2px solid #efefef;
+}
+#headermainb:hover,#headermainc:hover,#headermaind:hover{
+border:2px solid silver;
+border-radius: 5px;
+}
+.photo{
+height:200px;
+width:200px;
+}
+div.photocon{
+	position: absolute;
+	top:70px;
+	text-align: center;
+}
+div.photocon img{
+height: 200px;
+
+}
+#headermaine,#register{
+	float:right;
+	text-decoration: none;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 10px;
+color:black;
+border:2px solid #efefef;
+}
+#headermaine:hover{
+border:2px solid silver;
+border-radius: 5px;
+}
+#dropdown {
+    display:none;
+    position: relative;
+    left:1060px;
+    background-color: #f9f9f9;
+    width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top:40px;
+}
+#dropdown a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+#dropdown a:hover {background-color: #f1f1f1;}
+ .abc:hover #dropdown{
+	display: block;
+}
+
+
+
+
+

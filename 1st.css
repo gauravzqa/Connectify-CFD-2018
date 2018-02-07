@@ -10,17 +10,18 @@ border: 2px solid red;
 		height: 200px;
 		font-family: college;
 		font-size:100px;
-		color:silver;
+		color:white;
 		text-align: center;
 	}
-	div.d{
-border: 2px solid red;
-	}
+	
 	div.e{
-		border: 2px solid red;
 		font-size: 20px;
 		color:white;
 		height:100px;
+		text-align: center;
+		color:silver;
+		position: relative;
+		top:-40px;
 	}
 	body{
 		background-image: url('images/back.png');
@@ -32,17 +33,17 @@ border: 2px solid red;
 		font-family: college;
 		src:url('college.ttf');
 	}
-	div.z{
+	div.x{
 		border:2px none;
-		background-color: white;
+		background-color:#efefef;
 		height:40px;
 		border-bottom-right-radius:10px;
 		border-bottom-left-radius:10px; 
-	}
-	div.x{
 		position: fixed;
-		top: 0px;
+		top:0px;
+		z-index: 1;
 	}
+	
 	div.ab{
 text-align: justify;
 background-color: white;
@@ -58,28 +59,67 @@ margin-top: 60px;
 	div.ac1{
 		background-image: url('images/a2.jpg');
 		background-size: contain;
-		height: 350px;
+		height: 200px;
 		background-repeat: no-repeat;
+		filter: grayscale(100%);
+		border:2px solid red;
+		border-radius:25px;
+		width:200px;
+		margin-right: 100px;
+		margin-left: 250px;
 	}
 	div.ac2{
 		background-image: url('images/a3.jpg');
 		background-size: contain;
-		height: 350px;
+		height: 200px;
 		background-repeat: no-repeat;
+		filter: grayscale(100%);
+		border:2px solid red;
+		border-radius: 25px;
+		width:200px;
+		margin-right: 100px;
 	}
 	div.ac3{
 		background-image: url('images/a4.jpg');
 		background-size: contain;
-		height: 350px;
+		height: 200px;
 		background-repeat: no-repeat;
+		filter: grayscale(100%);
+		border: 2px solid red;
+		border-radius: 25px;
+		width:200px;
+		margin-right: 100px;
 	}
 	div.ad1{
 		background-image: url('images/a1.jpg');
 		background-size: cover;
 		height: 500px;
 		border-top:2px solid #efefef;
+		border-bottom: 2px solid #efefef;
 	}
 	div.ac{
 		background-color: white;
 	}
+	div.ae{
+	background-color: white;
+}
+div.ae1{
+width: 200px;
+margin-right: 100px;
+margin-left: 310px;
+margin-top: 15px;
+font-size: 15px;
+}
+div.ae2{
+width: 200px;
+margin-right: 100px;
+margin-top: 15px;
+font-size: 15px;
+}
+div.ae3{
+width: 200px;
+margin-right: 100px;
+margin-top: 15px;
+font-size: 15px;
+}
 

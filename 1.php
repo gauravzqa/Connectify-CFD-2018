@@ -24,7 +24,7 @@
 </div>
 <div class="row d">
 	<div class="col-sm-12 e">
-		our aim is to connect
+		our aim is to connect people
 	</div>
 </div>
 <div clas="row ">
